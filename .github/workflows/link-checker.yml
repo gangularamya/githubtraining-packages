@@ -5,7 +5,8 @@ on: push
 jobs:
   markdown-link-check:
     runs-on: ubuntu-latest
+    
     steps:
         - uses: actions/checkout@master
         - name: troubleshooting steps
-          run: echo "hello" 
+          run: echo github.repository 
