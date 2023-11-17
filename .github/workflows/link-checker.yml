@@ -5,7 +5,7 @@ on: push
 jobs:
   markdown-link-check:
     runs-on: ubuntu-latest
-    
+    if: github.repository == 'gangularamya/githubtraining-packages'
     steps:
         - uses: actions/checkout@master
         - name: troubleshooting steps
