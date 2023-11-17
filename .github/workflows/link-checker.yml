@@ -8,4 +8,4 @@ jobs:
     if: github.repository == 'githubtraining/exercise-publish-package'
     steps:
       - uses: actions/checkout@master
-      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      - uses: gangularamya/github-action-markdown-link-check@v1
