@@ -9,4 +9,4 @@ jobs:
     steps:
         - uses: actions/checkout@master
         - name: troubleshooting steps
-          run: echo github.repository 
+          run: echo ${{ github.repository }} 
